@@ -1,6 +1,15 @@
+export EDITOR="vim"
 export SVN_EDITOR=/usr/bin/vim
 
+# Increase the maximum number of lines contained in the history file
+export HISTFILESIZE=10000
+
+# Increase the maximum number of commands to remember
+export HISTSIZE=10000
+
 alias c='clear'
+# Flush DNS cache
+alias flushdns="dscacheutil -flushcache"
 alias h='history'
 alias ls='ls -lhai'
 alias md='mkdir -p'
