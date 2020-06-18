@@ -4,3 +4,13 @@ alias myipj="curl https://ipinfo.io/json"
 
 # Quickly serve the current directory as HTTP
 alias serve='python -m SimpleHTTPServer -p 8000'
+
+# PS
+alias psa="ps aux"
+
+# Show human friendly numbers and colors
+alias df='df -h'
+alias du='du -h -d 2'
+
+# Homebrew
+alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
