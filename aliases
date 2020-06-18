@@ -1,3 +1,7 @@
+alias ll="ls -al"
+alias ln="ln -v"
+alias mkdir="mkdir -p"
+
 # Print my Public IP Address
 alias myip="curl https://ipinfo.io/ip"
 alias myipj="curl https://ipinfo.io/json"
@@ -14,3 +18,6 @@ alias du='du -h -d 2'
 
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
+
+# Pretty print the path
+alias path='echo $PATH | tr -s ":" "\n"'
