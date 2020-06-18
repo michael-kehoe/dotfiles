@@ -1,0 +1,6 @@
+# Print my Public IP Address
+alias myip="curl https://ipinfo.io/ip"
+alias myipj="curl https://ipinfo.io/json"
+
+# Quickly serve the current directory as HTTP
+alias serve='python -m SimpleHTTPServer -p 8000'
