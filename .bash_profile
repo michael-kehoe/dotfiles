@@ -42,3 +42,9 @@ shopt -s cdspell;
 # encoding
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# colors
+export LSOPTIONS='--color'
+export CLICOLOR=1
+export PROMPT_DIRTRIM=2
+export LESS='GeFRX'
