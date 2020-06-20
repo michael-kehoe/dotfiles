@@ -13,3 +13,4 @@ set cursorline
 set noswapfile
 set nobackup
 set nowritebackup
+set spell
