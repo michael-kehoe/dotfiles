@@ -1,6 +1,7 @@
 alias ll="ls -al"
 alias ln="ln -v"
 alias mkdir="mkdir -p"
+alias dl="cd ~/Downloads"
 
 # Print my Public IP Address
 alias myip="curl https://ipinfo.io/ip"
@@ -21,3 +22,18 @@ alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
+
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# untar
+alias untar='tar xvf'
+
+# Always enable colored `grep` output
+alias grep='grep --color=auto '
