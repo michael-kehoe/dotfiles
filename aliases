@@ -32,7 +32,8 @@ alias .....="cd ../../../.."
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
-# untar
+# tar/ untar
+alias ttar='tar -czv'
 alias untar='tar xvf'
 
 # Always enable colored `grep` output
