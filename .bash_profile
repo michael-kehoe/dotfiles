@@ -21,6 +21,7 @@ alias rd='rmdir'
 alias svim="sudo vim"
 alias grep='grep --color=auto '
 alias h='history'
+alias checkspace="du -h / | grep '[0-9\.]\+G\>' | sort -n -r"
 
 alias ..='cd ..'         # Go up one directory
 alias cd..='cd ..'       # Common misspelling for going up one directory
