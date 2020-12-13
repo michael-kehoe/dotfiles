@@ -12,6 +12,7 @@ alias serve='python -m SimpleHTTPServer -p 8000'
 
 # PS
 alias psa="ps aux"
+alias pstree="pstree -a -p"
 
 # Show human friendly numbers and colors
 alias df='df -h'
